@@ -1,7 +1,7 @@
 app:
   image: dockeroh/app
 web:
-  image: dockeroh/eb
+  image: dockeroh/web
   links:
     - app
   ports:
